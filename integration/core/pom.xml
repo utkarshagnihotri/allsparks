@@ -42,7 +42,7 @@
                             artifactId1,
                             artifactId2;inline=true
                         </Embed-Dependency>
-                        -->
+                        --><Import-Package>javax.inject;version=1,*</Import-Package>
                         <Sling-Model-Packages>com.siriuscom.integration.core</Sling-Model-Packages>
                     </instructions>
                 </configuration>
@@ -127,5 +127,9 @@
             <groupId>junit-addons</groupId>
             <artifactId>junit-addons</artifactId>
         </dependency>
+      <dependency>
+  			<groupId>javax.inject</groupId>
+  			<artifactId>javax.inject</artifactId>
+ 		</dependency>
     </dependencies>
 </project>
