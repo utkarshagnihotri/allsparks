@@ -32,6 +32,12 @@
                 absParent="2">
                 <image/>
             </logo>
+            <banner
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aemmobile/components/structure/logo"
+                absParent="2">
+                <image/>
+            </banner>
         </page>
     </jcr:content>
     <clientlib-all/>

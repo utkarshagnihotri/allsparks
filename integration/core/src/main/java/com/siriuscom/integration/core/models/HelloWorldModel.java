@@ -37,9 +37,9 @@ public class HelloWorldModel {
 
     @PostConstruct
     protected void init() {
-        message = "\tHello World!\n";
-        message += "\tThis is instance: " + settings.getSlingId() + "\n";
-        message += "\tResource type is: " + resourceType + "\n";
+        message = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.";
+      // message += "\tThis is instance: " + settings.getSlingId() + "\n";
+      //  message += "\tResource type is: " + resourceType + "\n";
     }
 
     public String getMessage() {

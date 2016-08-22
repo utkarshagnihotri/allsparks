@@ -13,9 +13,8 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 */-->
-<p data-sly-test="${properties.text}">Text property: ${properties.text}</p>
+<div data-sly-test="${properties.text}">Text property: ${properties.text}</div>
 
-<pre data-sly-use.hello="com.siriuscom.integration.core.models.HelloWorldModel">
-HelloWorldModel says:
+<div data-sly-use.hello="com.siriuscom.integration.core.models.HelloWorldModel">
 ${hello.message}
-</pre>
+</div>
