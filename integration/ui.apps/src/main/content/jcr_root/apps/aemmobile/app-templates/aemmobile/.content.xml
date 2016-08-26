@@ -13,7 +13,7 @@
         cq:deviceGroups="[/etc/mobile/groups/responsive]"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="aemmobile/components/pages/issue"
-        dps-exportTemplate="/etc/contentsync/templates/dps-geometrixx-unlimited-app"
+        dps-exportTemplate="/etc/contentsync/templates/dps-aemmobile"
         dps-resourceType="dps:Project"
         pge-dashboard-config="/libs/mobileapps/dps/admin/content/dashboard/tiles/dpsdefault"
         pge-type="[app-group]"/>
