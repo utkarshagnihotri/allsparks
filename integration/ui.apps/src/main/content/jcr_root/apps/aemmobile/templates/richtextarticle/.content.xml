@@ -3,7 +3,7 @@
     jcr:description="Article template using the rich text editor"
     jcr:primaryType="cq:Template"
     jcr:title="AEM Mobile Integration Rich Template"
-    allowedPaths="[/content/phonegap(/.*)?,/content/mobileapps(/.*)?]"
+    allowedPaths="[/content/phonegap(/.*)?,/content/mobileapps(/.*)?,/content/aemmobile(/.*)?]"
     ranking="{Long}1">
     <jcr:content
         cq:designPath="/etc/designs/aemmobile"

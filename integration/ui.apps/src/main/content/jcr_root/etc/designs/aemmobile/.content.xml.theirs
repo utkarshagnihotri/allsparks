@@ -2,19 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-<<<<<<< .mine
-<<<<<<< .mine
-<<<<<<< .mine
-        cq:lastModified="{Date}2016-08-25T18:33:30.287+05:30"
-=======
-        cq:lastModified="{Date}2016-09-08T11:59:13.724+05:30"
->>>>>>> .theirs
-=======
-        cq:lastModified="{Date}2016-09-08T11:59:13.724+05:30"
->>>>>>> .theirs
-=======
         cq:lastModified="{Date}2016-09-08T12:32:22.672+05:30"
->>>>>>> .theirs
         cq:lastModifiedBy="admin"
         jcr:primaryType="nt:unstructured"
         jcr:title="aemmobile Site Design"
@@ -29,27 +17,11 @@
                 <section jcr:primaryType="nt:unstructured"/>
             </articleParX>
             <par
-<<<<<<< .mine
-<<<<<<< .mine
-<<<<<<< .mine
-                jcr:lastModified="{Date}2016-08-25T18:33:30.286+05:30"
-=======
-                jcr:lastModified="{Date}2016-09-08T11:59:13.722+05:30"
->>>>>>> .theirs
-=======
-                jcr:lastModified="{Date}2016-09-08T11:59:13.722+05:30"
->>>>>>> .theirs
-=======
                 jcr:lastModified="{Date}2016-09-08T12:32:22.670+05:30"
->>>>>>> .theirs
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="foundation/components/parsys"
-<<<<<<< .mine
-                components="[/libs/foundation/components/image,/apps/aemmobile/components/author,/apps/aemmobile/components/image,/apps/aemmobile/components/pages/logo,/apps/aemmobile/components/title,/apps/aemmobile/components/helloworld,/libs/media/articles/components/article]">
-=======
                 components="[/libs/foundation/components/image,/apps/aemmobile/components/author,/apps/aemmobile/components/image,/apps/aemmobile/components/pages/logo,/apps/aemmobile/components/title,group:aemmobile Components,/libs/media/articles/components/article]">
->>>>>>> .theirs
                 <section jcr:primaryType="nt:unstructured"/>
                 <logo
                     jcr:lastModified="{Date}2010-08-19T18:23:43.667+02:00"
@@ -57,7 +29,9 @@
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="foundation/components/logo"
                     div_x0020_img.margin="0"
-                    imageRotate="0"/>
+                    imageRotate="0">
+                    <image/>
+                </logo>
             </par>
         </article>
         <adpage jcr:primaryType="nt:unstructured">
@@ -79,16 +53,6 @@
                 <section jcr:primaryType="nt:unstructured"/>
             </par>
         </richtextarticle>
-<<<<<<< .mine
-<<<<<<< .mine
-<<<<<<< .mine
-        
-=======
->>>>>>> .theirs
-=======
->>>>>>> .theirs
-=======
->>>>>>> .theirs
     </jcr:content>
     <static.css/>
     <clientlibs-all/>

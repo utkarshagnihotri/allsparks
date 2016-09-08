@@ -3,7 +3,7 @@
     jcr:description="Unlimited article page template"
     jcr:primaryType="cq:Template"
     jcr:title="AEM Mobile Integration Simple Template"
-    allowedPaths="[/content/phonegap(/.*)?,/content/mobileapps(/.*)?]"
+    allowedPaths="[/content/phonegap(/.*)?,/content/mobileapps(/.*)?,/content/aemmobile(/.*)?]"
     ranking="{Long}1">
     <jcr:content
         cq:designPath="/etc/designs/aemmobile"
