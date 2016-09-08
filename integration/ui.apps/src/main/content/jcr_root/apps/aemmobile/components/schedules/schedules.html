@@ -1,0 +1,55 @@
+<!--/*
+    Copyright 2015 Adobe Systems Incorporated
+  
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+  
+        http://www.apache.org/licenses/LICENSE-2.0
+  
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+*/-->
+<div id = "schedule">
+					<div class = "date">
+						<h1>09 September 2016</h1>
+						<div class = "info">
+							<p class = "loc">
+								<a href = "https://www.google.co.in/maps/place/Hilton+Chennai/@13.0165612,80.202645,17z/data=!4m13!1m7!3m6!1s0x3a52673eaffd5755:0x72733ac5fb135bad!2sHilton+Chennai!3b1!8m2!3d13.016556!4d80.204839!3m4!1s0x3a52673eaffd5755:0x72733ac5fb135bad!8m2!3d13.016556!4d80.204839?hl=en"  target = "_blank"><i class = "fa fa-map-marker"></i> Hilton, Chennai</a><p>
+							<p>A day full of Presentations & Technical Talks</p>
+							<p>Registrations & Breakfast starts by 08:00 AM</p>
+							<p>Look below for Presentation Schedules</p>
+						</div>
+						<div class = "clearFix"></div>
+					</div>
+					
+					<div class = "scheduleBox">
+						<div class = "asTable fullTable">
+							<div class = "row">
+								<div class = "cell" ng-repeat = "(key, event) in events">
+									<div class = "timings">{{events[key][0].timeId}}</div>
+									<div ng-repeat = "presentation in events[key]" class = "card {{presentation.color}} {{presentation.kind}}" ng-click = "showTopicDesc(presentation)">
+										{{presentation.topic}}
+										<div class = "hall">Room {{presentation.hall}}</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class = "note">* Session Timings are subjected to change.</div>
+					</div>
+
+					<div class = "date">
+						<h1>10 September 2016</h1>
+						<div class = "info">
+							<p class = "loc">
+								<a href = "https://www.google.co.in/maps/place/Ramanujan+IT+City/@12.9908272,80.2446129,17z/data=!3m1!4b1!4m5!3m4!1s0x3a525d7c8a9665df:0x7e02e9491883ec9d!8m2!3d12.9908272!4d80.2468016" target="_blank"><i class = "fa fa-map-marker"></i> Ramanujan IT City, Chennai</a>
+							<p>
+							<p>Solutions Space - Tech Deep Dive Demos</p>
+							<p>Demos starts by 09:00 AM</p>
+						</div>
+						<div class = "clearFix"></div>
+					</div>
+				</div> <!-- EOF Schedule -->

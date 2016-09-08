@@ -48,5 +48,7 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="aemmobile/components/helloworld"/>
         </par>
+        <image/>
     </jcr:content>
+    <test/>
 </jcr:root>
