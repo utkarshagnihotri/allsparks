@@ -13,11 +13,9 @@
   Dissemination of this information or reproduction of this material
   is strictly forbidden unless prior written permission is obtained
   from Adobe Systems Incorporated.
---%><%
-%><%@include file="/libs/foundation/global.jsp"%><%
-%><%@page session="false" %><%
-%><!DOCTYPE html>
-<html lang="en" ng-app="allSparkModule" manifest = "finalSpark">
-<cq:include script="head.jsp" />
-<cq:include script="body.jsp" />
-</html>
+--%><%@include file="/libs/foundation/global.jsp" %><%
+%><%@page session="false" %>
+
+<div class="article-content dps-newcolumn" data-dps-container="flowed">
+    <cq:include path="par" resourceType="foundation/components/parsys"/>
+</div>    

@@ -16,4 +16,6 @@
 --%><%@include file="/libs/foundation/global.jsp" %><%
 %><%@page session="false" %>
 
- <cq:include path="par" resourceType="foundation/components/parsys"/>
+<div class="article-content dps-newcolumn" data-dps-container="flowed">
+    <cq:include path="par" resourceType="foundation/components/parsys"/>
+</div>   

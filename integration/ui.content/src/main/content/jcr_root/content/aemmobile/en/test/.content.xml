@@ -4,7 +4,7 @@
     <jcr:content
         cq:designPath="/etc/designs/aemmobile"
         cq:deviceGroups="[/etc/mobile/groups/responsive]"
-        cq:lastModified="{Date}2016-09-08T18:18:01.183+05:30"
+        cq:lastModified="{Date}2016-09-08T19:16:08.780+05:30"
         cq:lastModifiedBy="admin"
         cq:template="/apps/aemmobile/templates/allspark"
         jcr:primaryType="cq:PageContent"

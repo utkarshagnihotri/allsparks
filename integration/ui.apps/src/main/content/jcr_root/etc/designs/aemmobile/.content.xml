@@ -21,7 +21,7 @@
         cq:lastModified="{Date}2016-09-08T12:32:22.672+05:30"
 >>>>>>> .theirs
 =======
-        cq:lastModified="{Date}2016-09-08T17:31:20.621+05:30"
+        cq:lastModified="{Date}2016-09-08T19:43:42.387+05:30"
 >>>>>>> .theirs
         cq:lastModifiedBy="admin"
         jcr:primaryType="nt:unstructured"
@@ -87,7 +87,17 @@
         </article>
         <allspark jcr:primaryType="nt:unstructured">
             <par
-                jcr:lastModified="{Date}2016-09-08T17:31:20.619+05:30"
+                jcr:lastModified="{Date}2016-09-08T19:18:40.599+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys"
+                components="[group:AEM Mobile Integration,group:aemmobile Components]">
+                <section jcr:primaryType="nt:unstructured"/>
+            </par>
+        </allspark>
+        <allsspark jcr:primaryType="nt:unstructured">
+            <par
+                jcr:lastModified="{Date}2016-09-08T19:43:42.385+05:30"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 components="[group:AEM Mobile Integration,group:aemmobile Components]">
@@ -109,7 +119,7 @@
 =======
 >>>>>>> .theirs
 =======
-        </allspark>
+        </allsspark>
 >>>>>>> .theirs
     </jcr:content>
     <static.css/>

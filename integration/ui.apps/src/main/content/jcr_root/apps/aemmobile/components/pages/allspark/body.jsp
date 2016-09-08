@@ -102,7 +102,9 @@
             </header> <!-- EOF Header -->
 			<section id = "carousel">
 
+     <div class="bg">
         <cq:include script="content.jsp"/>
+    </div>
 
      <div class = "default">
 					<div class = "countdown" ng-if = "showCountDown != true">

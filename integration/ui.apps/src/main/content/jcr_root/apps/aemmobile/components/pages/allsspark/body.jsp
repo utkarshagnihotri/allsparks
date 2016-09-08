@@ -13,11 +13,15 @@
   Dissemination of this information or reproduction of this material
   is strictly forbidden unless prior written permission is obtained
   from Adobe Systems Incorporated.
---%><%
-%><%@include file="/libs/foundation/global.jsp"%><%
-%><%@page session="false" %><%
-%><!DOCTYPE html>
-<html lang="en" ng-app="allSparkModule" manifest = "finalSpark">
-<cq:include script="head.jsp" />
-<cq:include script="body.jsp" />
-</html>
+--%><%@include file="/libs/foundation/global.jsp" %><%
+%><%@page session="false"
+          import="com.day.cq.wcm.api.WCMMode"%><%
+%><body>
+<div id="container" class="container" data-dps="paginate" data-page-padding="15" >
+    <cq:include script="header.jsp"/>
+    <div class="bg">
+        <cq:include script="content.jsp"/>
+    </div>
+    <cq:include script="footer.jsp"/>
+</div><%
+%></body>
