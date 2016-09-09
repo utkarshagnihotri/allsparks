@@ -7,7 +7,7 @@
         extension="css"
         path="/etc/clientlibs/foundation/main"
         type="clientlib"/>
-    <aemmobilearticle.clientlibs.css
+    <aemmobile.article.clientlibs.css
         jcr:primaryType="nt:unstructured"
         extension="css"
         path="/apps/aemmobile/components/pages/article/clientlibs"

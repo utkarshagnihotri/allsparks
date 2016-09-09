@@ -13,12 +13,26 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 */-->
-<div data-sly-test="${properties.text}">Text property: ${properties.text}</div>
-<div id = "guests">
-					<div class = "profile" ng-repeat = "guest in guests">
-						<div class = "pic" style = "background: url(/etc/designs/aemmobile/clientlibs/img/guests/{{guest.url}}.jpg) no-repeat center; background-size: 100% 100%;"></div>
-						<div class = "name">{{guest.name}}</div>
-						<div class = "desig">{{guest.designation}}</div>
-						<div class = "domain">{{guest.domain}}</div>
-					</div>
-				</div>
+<div id="guests" style="display: block;">
+	<!-- ngRepeat: guest in guests --><div class="profile ng-scope" >
+		<div class="pic" style="background: url(/etc/designs/aemmobile/clientlibs/img/guests/joemertens.jpg) no-repeat center; background-size: 100% 100%;"></div>
+		<div class="name ng-binding">Joe Mertens</div>
+		<div class="desig ng-binding">President &amp; CEO</div>
+		<div class="domain ng-binding">Sirius</div>
+	</div><!-- end ngRepeat: guest in guests --><div class="profile ng-scope" >
+		<div class="pic" style="background: url(/etc/designs/aemmobile/clientlibs/img/guests/rickbailer.jpg) no-repeat center; background-size: 100% 100%;"></div>
+		<div class="name ng-binding">Rick Bailer</div>
+		<div class="desig ng-binding">Senior Vice President</div>
+		<div class="domain ng-binding">Sales</div>
+	</div><!-- end ngRepeat: guest in guests --><div class="profile ng-scope" >
+		<div class="pic" style="background: url(/etc/designs/aemmobile/clientlibs/img/guests/stephenmorris.jpg) no-repeat center; background-size: 100% 100%;"></div>
+		<div class="name ng-binding">Stephen Morris</div>
+		<div class="desig ng-binding">Vice President</div>
+		<div class="domain ng-binding">Software Solutions &amp; Services</div>
+	</div><!-- end ngRepeat: guest in guests --><div class="profile ng-scope" >
+		<div class="pic" style="background: url(/etc/designs/aemmobile/clientlibs/img/guests/paulbucalo.jpg) no-repeat center; background-size: 100% 100%;"></div>
+		<div class="name ng-binding">Paul Bucalo</div>
+		<div class="desig ng-binding">Practice Manager</div>
+		<div class="domain ng-binding">Digital Experience</div>
+	</div><!-- end ngRepeat: guest in guests -->
+</div>

@@ -13,20 +13,111 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 */-->
-				<div id = "timeline"> 
-					<article ng-repeat = "event in timelines">
-						<div class="inner">
-							<span class="date">
-								<span class="day">{{event.date.day}}</span>
-								<span class="month">{{event.date.mon}}</span>
-								<span class="year">{{event.date.year}}</span>
-							</span>
-							<h2>{{event.title}}</h2>
-							<h3><i class="fa fa-map-marker"></i> {{event.location}}</h3>
-							<ul type="circle">
-								<li ng-repeat="det in event.desc">{{det}}</li>
-							</ul>
-						</div>
-					</article>
-					<div class="clearfix"></div>
-				</div><!-- EOF Flashback -->
+			<div id="timeline" style="display: block;"> 
+	<!-- ngRepeat: event in timelines --><article  class="ng-scope">
+		<div class="inner">
+			<span class="date">
+				<span class="day ng-binding"></span>
+				<span class="month ng-binding">Sep</span>
+				<span class="year ng-binding">2016</span>
+			</span>
+			<h2 class="ng-binding">AllSpark 2016</h2>
+			<h3 class="ng-binding"><i class="fa fa-map-marker"></i> Hilton, Chennai</h3>
+			<ul type="circle">
+				<!-- ngRepeat: det in event.desc --><li  class="ng-binding ng-scope">Innovations in the fields of Digital Experience, Mobility, Commerce, Quality Assurance, Big Data &amp; Analytics and DevOps</li><!-- end ngRepeat: det in event.desc -->
+			</ul>
+		</div>
+	</article><!-- end ngRepeat: event in timelines --><article  class="ng-scope">
+		<div class="inner">
+			<span class="date">
+				<span class="day ng-binding"></span>
+				<span class="month ng-binding">Apr</span>
+				<span class="year ng-binding">2016</span>
+			</span>
+			<h2 class="ng-binding">Codes &amp; Gears 2016</h2>
+			<h3 class="ng-binding"><i class="fa fa-map-marker"></i> Chennai India</h3>
+			<ul type="circle">
+				<!-- ngRepeat: det in event.desc --><li class="ng-binding ng-scope">Smarter Healthcare &amp; Commerce Ideas</li><!-- end ngRepeat: det in event.desc --><li  class="ng-binding ng-scope">Ideas on DevOps, Future Technologies</li><!-- end ngRepeat: det in event.desc -->
+			</ul>
+		</div>
+	</article><!-- end ngRepeat: event in timelines --><article  class="ng-scope">
+		<div class="inner">
+			<span class="date">
+				<span class="day ng-binding"></span>
+				<span class="month ng-binding">Nov</span>
+				<span class="year ng-binding">2015</span>
+			</span>
+			<h2 class="ng-binding">AllSpark 2015</h2>
+			<h3 class="ng-binding"><i class="fa fa-map-marker"></i> Hilton, Chennai</h3>
+			<ul type="circle">
+				<!-- ngRepeat: det in event.desc --><li class="ng-binding ng-scope">All Spark is for Developers, QA and MASS who want to make the world a better place</li><!-- end ngRepeat: det in event.desc --><li class="ng-binding ng-scope">Innovative Talks &amp; Ideas</li><!-- end ngRepeat: det in event.desc -->
+			</ul>
+		</div>
+	</article><!-- end ngRepeat: event in timelines --><article  class="ng-scope">
+		<div class="inner">
+			<span class="date">
+				<span class="day ng-binding"></span>
+				<span class="month ng-binding">Mar</span>
+				<span class="year ng-binding">2015</span>
+			</span>
+			<h2 class="ng-binding">Codes &amp; Gears 2015</h2>
+			<h3 class="ng-binding"><i class="fa fa-map-marker"></i> Chennai India</h3>
+			<ul type="circle">
+				<!-- ngRepeat: det in event.desc --><li  class="ng-binding ng-scope">Next Generation Shopping experience</li><!-- end ngRepeat: det in event.desc --><li  class="ng-binding ng-scope">Internet of Things in Enterprises</li><!-- end ngRepeat: det in event.desc --><li  class="ng-binding ng-scope">Innovations for eGovernance in India</li><!-- end ngRepeat: det in event.desc --><li class="ng-binding ng-scope">Smarter SDLC</li><!-- end ngRepeat: det in event.desc -->
+			</ul>
+		</div>
+	</article><!-- end ngRepeat: event in timelines --><article  class="ng-scope">
+		<div class="inner">
+			<span class="date">
+				<span class="day ng-binding"></span>
+				<span class="month ng-binding">Oct</span>
+				<span class="year ng-binding">2014</span>
+			</span>
+			<h2 class="ng-binding">Ignite</h2>
+			<h3 class="ng-binding"><i class="fa fa-map-marker"></i> Hyatt Regency, Chennai India</h3>
+			<ul type="circle">
+				<!-- ngRepeat: det in event.desc --><li  class="ng-binding ng-scope">Talks &amp; Sessions on Business</li><!-- end ngRepeat: det in event.desc --><li  class="ng-binding ng-scope">Solution Space on Innovative Ideas &amp; Assets</li><!-- end ngRepeat: det in event.desc -->
+			</ul>
+		</div>
+	</article><!-- end ngRepeat: event in timelines --><article  class="ng-scope">
+		<div class="inner">
+			<span class="date">
+				<span class="day ng-binding"></span>
+				<span class="month ng-binding">Feb</span>
+				<span class="year ng-binding">2014</span>
+			</span>
+			<h2 class="ng-binding">Codes &amp; Gears 2014</h2>
+			<h3 class="ng-binding"><i class="fa fa-map-marker"></i> Chennai India</h3>
+			<ul type="circle">
+				<!-- ngRepeat: det in event.desc --><li  class="ng-binding ng-scope">Theme: Technology 2020</li><!-- end ngRepeat: det in event.desc --><li  class="ng-binding ng-scope">Brainstorming the non-existent than settling down with the existent</li><!-- end ngRepeat: det in event.desc -->
+			</ul>
+		</div>
+	</article><!-- end ngRepeat: event in timelines --><article  class="ng-scope">
+		<div class="inner">
+			<span class="date">
+				<span class="day ng-binding"></span>
+				<span class="month ng-binding">Sep</span>
+				<span class="year ng-binding">2013</span>
+			</span>
+			<h2 class="ng-binding">Mini Tech Xchange</h2>
+			<h3 class="ng-binding"><i class="fa fa-map-marker"></i> Hyatt Regency, Chennai India</h3>
+			<ul type="circle">
+				<!-- ngRepeat: det in event.desc --><li  class="ng-binding ng-scope">Talks &amp; Sessions on Portal, Commerce, Mobile, QA, MASS</li><!-- end ngRepeat: det in event.desc --><li class="ng-binding ng-scope">Solution Space on Innovative Ideas &amp; Assets</li><!-- end ngRepeat: det in event.desc -->
+			</ul>
+		</div>
+	</article><!-- end ngRepeat: event in timelines --><article  class="ng-scope">
+		<div class="inner">
+			<span class="date">
+				<span class="day ng-binding"></span>
+				<span class="month ng-binding">Aug</span>
+				<span class="year ng-binding">2013</span>
+			</span>
+			<h2 class="ng-binding">UI Hackathon</h2>
+			<h3 class="ng-binding"><i class="fa fa-map-marker"></i> Chennai India</h3>
+			<ul type="circle">
+				<!-- ngRepeat: det in event.desc --><li  class="ng-binding ng-scope">Exploring the world of JQuery, Bootstrap, Backbone, CSS3, HTML5, Responsive Design</li><!-- end ngRepeat: det in event.desc -->
+			</ul>
+		</div>
+	</article><!-- end ngRepeat: event in timelines -->
+	<div class="clearfix"></div>
+</div>

@@ -7,6 +7,7 @@
 <<<<<<< .mine
 <<<<<<< .mine
 <<<<<<< .mine
+<<<<<<< .mine
         cq:lastModified="{Date}2016-08-25T18:33:30.287+05:30"
 =======
         cq:lastModified="{Date}2016-09-08T11:59:13.724+05:30"
@@ -23,12 +24,16 @@
 =======
         cq:lastModified="{Date}2016-09-08T19:43:42.387+05:30"
 >>>>>>> .theirs
+=======
+        cq:lastModified="{Date}2016-09-08T19:43:42.387+05:30"
+>>>>>>> .theirs
         cq:lastModifiedBy="admin"
         jcr:primaryType="nt:unstructured"
         jcr:title="aemmobile Site Design"
         sling:resourceType="wcm/core/components/designer">
         <article jcr:primaryType="nt:unstructured">
             <par
+<<<<<<< .mine
 <<<<<<< .mine
 <<<<<<< .mine
 <<<<<<< .mine
@@ -50,9 +55,13 @@
 =======
                 jcr:lastModified="{Date}2016-09-08T14:43:17.547+05:30"
 >>>>>>> .theirs
+=======
+                jcr:lastModified="{Date}2016-09-08T14:43:17.547+05:30"
+>>>>>>> .theirs
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="foundation/components/parsys"
+<<<<<<< .mine
 <<<<<<< .mine
 <<<<<<< .mine
 <<<<<<< .mine
@@ -64,6 +73,10 @@
                 components="[/libs/foundation/components/image,/apps/aemmobile/components/author,/apps/aemmobile/components/image,/apps/aemmobile/components/pages/logo,/apps/aemmobile/components/title,group:aemmobile Components,/libs/media/articles/components/article]">
 >>>>>>> .theirs
                 <section jcr:primaryType="nt:unstructured"/>
+=======
+                components="[/libs/foundation/components/adaptiveimage,/libs/foundation/components/image,/libs/fd/af/components/guideimage,/apps/aemmobile/components/author,/apps/aemmobile/components/image,/apps/aemmobile/components/pages/logo,/apps/aemmobile/components/title,group:aemmobile Components,/libs/media/articles/components/article]">
+>>>>>>> .theirs
+                <logo
 =======
                 components="[/libs/foundation/components/adaptiveimage,/libs/foundation/components/image,/libs/fd/af/components/guideimage,/apps/aemmobile/components/author,/apps/aemmobile/components/image,/apps/aemmobile/components/pages/logo,/apps/aemmobile/components/title,group:aemmobile Components,/libs/media/articles/components/article]">
 >>>>>>> .theirs
@@ -104,6 +117,7 @@
                 <section jcr:primaryType="nt:unstructured"/>
             </par>
 <<<<<<< .mine
+<<<<<<< .mine
         </richtextarticle>
 <<<<<<< .mine
 <<<<<<< .mine
@@ -118,6 +132,19 @@
 >>>>>>> .theirs
 =======
 >>>>>>> .theirs
+=======
+        </allsspark>
+>>>>>>> .theirs
+    </jcr:content>
+    <static.css/>
+    <clientlibs-all/>
+    <clientlibs/>
+    <favicon.ico/>
+    <fonts/>
+    <icons/>
+    <img/>
+    <_x002e_content.xml.base/>
+    <_x002e_content.xml.mine/>
 =======
         </allsspark>
 >>>>>>> .theirs

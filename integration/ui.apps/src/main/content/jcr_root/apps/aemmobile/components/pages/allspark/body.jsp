@@ -18,7 +18,7 @@
           import="com.day.cq.wcm.api.WCMMode"%><%
 %><body>
  <cq:include script="header.jsp"/>
-		<div id="container" class = "container" ng-controller = "allSparkController">
+		<div id="container" class = "container" ng-controller = "allSparkController" >
 			<header>
 				<div class = "allsparklogo">
 					<?xml version="1.0" encoding="UTF-8" standalone="no"?>
@@ -102,11 +102,7 @@
             </header> <!-- EOF Header -->
 			<section id = "carousel">
 
-     <div class="bg">
-        <cq:include script="content.jsp"/>
-    </div>
-
-     <div class = "default">
+                 <div class = "default">
 					<div class = "countdown" ng-if = "showCountDown != true">
 						 {{remTime.days}} <span>DAYS</span> : 
 						 {{remTime.hours}} <span>HRS</span> : 
@@ -114,6 +110,11 @@
 						 {{remTime.seconds}} <span>SEC</span>
 					</div>	
 				</div> <!-- EOF default -->
+
+              <cq:include script="content.jsp"/>
+
+
+
 			</section> <!-- EOF section -->           
 	<cq:include script="footer.jsp"/>
    </div>
